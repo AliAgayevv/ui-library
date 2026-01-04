@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "./components/Card";
 import { ModeToggle } from "./components/mode-toogle";
+import NeuSwitch from "./components/Switch";
 import { ThemeProvider } from "./components/theme-provider";
 
 function App() {
@@ -44,11 +45,8 @@ function App() {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button variant="primary">Action</Button>
+              <NeuSwitch />
             </CardFooter>
-          </Card>
-          <Card variant="inset">
-            <h1>Hello inset</h1>
           </Card>
         </div>
       </main>
